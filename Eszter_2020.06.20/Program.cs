@@ -70,6 +70,10 @@ namespace Eszter_2020._06._20
 
             //Írj programot, amely 1 és 100 között kiírja az összes páros egész számot!
             //A számokat egymástól szóközökkel válasszuk el a kiírás sorrendjében.
+            for (int i = 2;i<=100;i=i+2)
+            {
+                Console.Write($"{i} ");
+            }
             Console.ReadKey();
         }
     }
